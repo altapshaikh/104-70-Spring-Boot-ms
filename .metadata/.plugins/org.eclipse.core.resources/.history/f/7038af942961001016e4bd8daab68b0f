@@ -1,0 +1,3 @@
+spring.application.name=10-Spring-boot-banner
+
+server.port=4555

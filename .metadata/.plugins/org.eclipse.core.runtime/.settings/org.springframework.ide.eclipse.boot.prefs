@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.spring-ai-mcp-server=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=10
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=ecom-express
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.5.3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.alt
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=11-Spring-boot-Runners
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.alt
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

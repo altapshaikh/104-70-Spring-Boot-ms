@@ -1,0 +1,63 @@
+package com.alt;
+
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.annotation.Order;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+	
+	//CommandLineRunner
+	/*
+	 * @Bean public CommandLineRunner commandLineRunner() { return args->{
+	 * System.out.println("**********commandLineRunner is running with arguments");
+	 * for(String arg:args) { System.out.println("________"+arg); } }; }
+	 */
+	
+	@Bean
+	@Order(2)
+	public CommandLineRunner commandLineRunner1() {
+		return args->{
+			System.out.println("**********commandLineRunner1************");
+			
+		};
+	}
+	@Bean
+	@Order(1)
+	public CommandLineRunner commandLineRunner2() {
+		return args->{
+			System.out.println("**********commandLineRunner2******** ");
+			
+		};
+	}
+	
+	//ApplicationRunner
+	
+	@Bean
+	public ApplicationRunner applicationRunner() {
+		return new ApplicationRunner() {
+			@Override
+			public void run(ApplicationArguments args) throws Exception {
+			
+				System.out.println("***********ApplicationRunner running with Arguments:");
+			    System.out.println("option name: "+args.getOptionNames());
+			    System.out.println("non-option name: "+args.getNonOptionArgs());
+			}
+		};
+	}
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package com.alt.service;
+
+
+public class PrintMsg {
+
+	public void PrintMsg() {
+		System.out.println("msg from print msg......!!!");
+	}
+}
