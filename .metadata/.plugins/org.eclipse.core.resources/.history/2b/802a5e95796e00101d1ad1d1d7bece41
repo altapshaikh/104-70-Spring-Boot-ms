@@ -1,0 +1,13 @@
+package com.alt.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.alt.entity.CourseEntity;
+import com.alt.entity.StudentEntity;
+
+public interface CourseRepository extends JpaRepository<CourseEntity, Long> {
+
+}

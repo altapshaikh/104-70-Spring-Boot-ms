@@ -1,0 +1,19 @@
+package com.alt.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name = "product")
+@Data
+public class ProductEntity {
+
+	private long id;
+	private String name;
+	private String prize;
+	private String model;
+	private String mfd;
+	private int warrnty;
+	
+}

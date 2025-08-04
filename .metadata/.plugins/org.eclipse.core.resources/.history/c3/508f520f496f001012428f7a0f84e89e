@@ -1,0 +1,5 @@
+package com.alt.service;
+
+public interface ProductService {
+
+}

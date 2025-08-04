@@ -1,0 +1,8 @@
+package com.alt.service;
+
+import com.alt.entity.ProductEntity;
+
+public interface ProductService {
+
+	public ProductEntity saveProduct(ProductEntity product);
+}
