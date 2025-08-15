@@ -1,7 +1,0 @@
-package com.alt.repository;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface ProfileReposiotry extends CrudRepository<T, ID> {
-
-}

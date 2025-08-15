@@ -1,9 +1,0 @@
-package com.alt.repository;
-
-import org.springframework.data.repository.CrudRepository;
-
-import com.alt.entity.UserEntity;
-
-public interface UsersRepository extends CrudRepository<UserEntity, Long> {
-
-}

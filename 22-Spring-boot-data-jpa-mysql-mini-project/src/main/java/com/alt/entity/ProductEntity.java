@@ -15,7 +15,7 @@ public class ProductEntity {
   @Id
   @GeneratedValue
 	private long id;
-	private String name;
+	private String productName;
 	private String prize;
 	private String model;
 	private LocalDate mfd;

@@ -13,11 +13,18 @@ public class Application {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
 	
-		ProductComponent bean = ctx.getBean(ProductComponent.class);
-		bean.createProduct();
-		
-		ProductEntity selectProductById = bean.selectProductById();
-		System.out.println(selectProductById);
+		/*
+		 * ProductComponent bean = ctx.getBean(ProductComponent.class);
+		 * bean.createProduct();
+		 * 
+		 * ProductEntity selectProductById = bean.selectProductById();
+		 * System.out.println(selectProductById);
+		 * 
+		 * ProductEntity updateProduct = bean.updateProduct();
+		 * System.out.println(updateProduct); bean.deleteProductById();
+		 * System.out.println("====================all product========================"
+		 * ); bean.fetchAllProduct().forEach(data->{ System.out.println(data); });
+		 */
 	}
 
 }
