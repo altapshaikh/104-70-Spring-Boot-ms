@@ -10,11 +10,11 @@ public interface ProductService {
 	
 	public ProductDTO updateProduct(ProductDTO product);
 	
-	public ProductDTO fetchProductById(int id);
+	public ProductDTO fetchProductById(long id);
 	
 	public List<ProductDTO> fetchAllProduct();
 	
-	public void  deleteProduct();
+	public void  deleteProduct(long id);
 	
 	
 }

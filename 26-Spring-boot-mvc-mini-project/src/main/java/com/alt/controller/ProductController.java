@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.alt.dto.ProductDTO;
@@ -40,5 +41,24 @@ public class ProductController {
 		return "listproduct";
 	}
 	
+	@GetMapping(value = "/delete/{id}")
+	public String deleteProduct(@PathVariable("id")Long id) {
+		productService.deleteProduct(id);
+		return "redirect:/list_product";
+	}
+	
+	@GetMapping(value = "/edit/{id}")
+	public String editProduct(@PathVariable("id")Long id,Model model) {
+		ProductDTO productById = productService.fetchProductById(id);
+		model.addAttribute("product", productById);
+		model.addAttribute("type", ProductType.values());
+		return "edit";
+	}
+	
+	@PostMapping(value  = "/update")
+	public String updateProduct(@ModelAttribute("product")ProductDTO product,Model model) {
+		 productService.updateProduct(product);
+		return "redirect:/list_product";
+	}
 	
 }

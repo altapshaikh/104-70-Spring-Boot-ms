@@ -2,6 +2,7 @@ package com.alt.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,26 +22,32 @@ public class ProductServiceImpl implements ProductService {
 	
 	@Override
 	public ProductDTO registerProduct(ProductDTO product) {
+		
+		return registerOrUpdateProduct(product);
+	}
+
+	public ProductDTO registerOrUpdateProduct(ProductDTO product) {
 		ProductEntity entity=new ProductEntity();
-		
 		BeanUtils.copyProperties(product, entity);
-		
 		ProductEntity save = productRepository.save(entity);
-		
 		BeanUtils.copyProperties(save, product);
 		return product;
 	}
-
+	
 	@Override
 	public ProductDTO updateProduct(ProductDTO product) {
-		// TODO Auto-generated method stub
-		return null;
+		return registerOrUpdateProduct(product);
 	}
 
+	
 	@Override
-	public ProductDTO fetchProductById(int id) {
-		// TODO Auto-generated method stub
-		return null;
+	public ProductDTO fetchProductById(long id) {
+		ProductDTO dto=new ProductDTO();
+		Optional<ProductEntity> product = productRepository.findById(id);
+		if(product.isPresent()) {
+		BeanUtils.copyProperties(product.get(), dto);
+		}
+		return dto;	
 	}
 
 	@Override
@@ -58,8 +65,8 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public void deleteProduct() {
-		// TODO Auto-generated method stub
+	public void deleteProduct(long id) {
+		productRepository.deleteById(id);
 		
 	}
 
