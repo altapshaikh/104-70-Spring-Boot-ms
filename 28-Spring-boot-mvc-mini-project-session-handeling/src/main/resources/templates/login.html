@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Register The Product</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form th:action="@{/login}" th:object="${login}" method="post" id="loginform">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-5">
+                <h1 style="color: red;">Login user</h1>
+                <hr>
+
+                <!-- success message -->
+                <div class="alert alert-success col-md-8" th:if="${msg}">
+                    <strong><p th:text="${msg}"></p></strong>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3 mt-4">
+                    <label>Email:</label>
+                    <input type="text" th:field="*{email}" class="form-control" id="email">
+                    <span class="text-danger" id="emailError" th:if="${#fields.hasErrors('email')}"
+					                       th:errors="*{email}"</span>
+                </div>
+
+                <!-- Password -->
+                <div class="mb-3 mt-4">
+                    <label>Password:</label>
+                    <input type="password" th:field="*{password}" class="form-control" id="password" required>
+                    <span class="text-danger" id="passwordError" 
+					 th:if="${#fields.hasErrors('password')}"
+					 th:errors="*{password}"></span>
+                </div>
+
+                <br>
+                <div class="mb-3 mt-4 ml-5">
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <a href="/" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("loginform").addEventListener("submit", function (event) {
+            let isValid = true;
+		
+            // Get input values
+            const emailInput = document.getElementById("email");
+            const passwordInput = document.getElementById("password");
+
+            // Get error spans
+            const emailError = document.getElementById("emailError");
+            const passwordError = document.getElementById("passwordError");
+			const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            // Clear old error messages
+            emailError.innerText = "";
+            passwordError.innerText = "";
+
+            // Email validation
+            if (emailInput.value.trim() === "") {
+                emailError.innerText = "Email is required.";
+                isValid = false;
+            }				else if (!emailPattern.test(emailInput)) {
+				                emailError.innerText = "Please enter a valid email address.";
+				                isValid = false;
+				            }
+
+			
+            // Password validation
+            if (passwordInput.value.length < 6) {
+                passwordError.innerText = "Password must be at least 6 characters.";
+                isValid = false;
+            }
+
+            // If any field is invalid, prevent form submission
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

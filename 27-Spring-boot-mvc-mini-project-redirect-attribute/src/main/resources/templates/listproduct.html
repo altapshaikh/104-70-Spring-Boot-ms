@@ -1,0 +1,79 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Register The Product</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js"></script>
+	
+	<style>
+		div.dt-container {
+		    margin: 0 auto;
+		    width: 90%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row">
+	
+		<div style="margin-left: 30px;" >
+          <h2>Product List</h2>
+		  <div class="alert alert-success col-md-6" th:if="${msg}">
+		      <strong><p th:text="${msg}"></p></strong> 
+		    </div>
+		  <table class="table   table-hover" id="myTable" >
+			<thead style="background-color: orange;">
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Brand</th>
+					<th>Warranty</th>
+					<th>Type</th>
+					<th>MFD</th>
+					<th>PRICE</th>
+					<th>QUANTITY</th>
+					<th>Actions</th>
+				</tr>
+				
+			</thead>
+			<tbody>
+				<tr th:each="product: ${listProduct}">
+					<td th:text="${product.id}"></td>
+					<td th:text="${product.name}"></td>
+					<td th:text="${product.brand}"></td>
+					<td th:text="${product.warantty}"></td>
+					<td th:text="${product.type}"></td>
+					<td th:text="${product.mfd}"></td>
+					<td th:text="${product.prize}"></td>
+					<td th:text="${product.quantity}"></td>
+					<td>
+						<a th:href="@{'/edit/' + ${product.id}}" class="btn btn-primary btn-sm">Edit</a>
+						
+						<a th:href="@{'/delete/' + ${product.id}}" class="btn btn-danger btn-sm"
+						onclick="return confirm('Are you sure?')">Delete</a>
+					</td>
+				</tr>
+				
+			</tbody>
+			
+		  </table>
+		  
+		  
+		  
+		  
+		  
+		  
+		</div>
+		
+	</div>
+</body>
+<script>
+	
+	new DataTable('#myTable');
+</script>
+
+</html>
