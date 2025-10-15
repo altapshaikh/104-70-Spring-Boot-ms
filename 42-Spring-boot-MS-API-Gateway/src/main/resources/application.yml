@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: 42-Spring-boot-MS-API-Gateway
+  cloud:
+    gateway:
+      server:
+        webmvc:
+          routes:
+          - id: loan-service
+            uri: http://localhost:8081
+            predicates:
+            - Path=/loan/**
+          - id: locker-service
+            uri: http://localhost:8082
+            predicates:
+            - Path=/locker/**
+server:
+  port: 8080

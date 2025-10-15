@@ -28,7 +28,8 @@ public class HelloController {
 		Flux.range(1, 10).delayElements(Duration.ofSeconds(1)).subscribe(data->{
 			 System.out.println(data);
 		 });
-		 
+		
+		 System.out.println("welcome....................iam not waiting.........!!!");
 		 return null;
 	}
 	
