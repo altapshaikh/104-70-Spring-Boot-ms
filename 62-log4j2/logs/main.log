@@ -1,0 +1,130 @@
+2025-10-25 08:22:17,558 [restartedMain] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-25 08:22:18,346 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:22:18,630 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-25 08:22:19,009 [restartedMain] INrunning for 25.872)FO com.alt.Application - Started Application in 19.567 seconds (process 
+2025-10-25 08:24:13,251 [http-nio-8080-exec-2] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-25 08:24:13,251 [http-nio-8080-exec-2] INFO org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-25 08:24:13,282 [http-nio-8080-exec-2] INFO org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2025-10-25 08:24:14,415 [http-nio-8080-exec-2] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:24:14,416 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:24:14,466 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product id  is started 325
+2025-10-25 08:24:14,473 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product saved in database Product(id=325, name=mobiles, price=9999)
+2025-10-25 08:24:14,475 [http-nio-8080-exec-2] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:25:25,630 [File Watcher] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-25 08:25:25,650 [Thread-5] INFO org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-25 08:25:25,656 [tomcat-shutdown] INFO org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:25:26,358 [tomcat-shutdown] INFO org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-25 08:25:26,360 [Thread-5] INFO org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:25:26,741 [restartedMain] INFO com.alt.Application - Starting Application using Java 17.0.8 with PID 15516 (E:\backup\classes\103-spring boot\62-log4j2\target\classes started by shaik in E:\backup\classes\103-spring boot\62-log4j2)
+2025-10-25 08:25:26,742 [restartedMain] INFO com.alt.Application - No active profile set, falling back to 1 default profile: "default"
+2025-10-25 08:25:27,538 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-25 08:25:27,540 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:25:27,542 [restartedMain] INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-25 08:25:27,542 [restartedMain] INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-25 08:25:27,572 [restartedMain] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-25 08:25:27,573 [restartedMain] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 815 ms
+2025-10-25 08:25:27,765 [restartedMain] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-25 08:25:27,792 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:25:27,801 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-25 08:25:27,810 [restartedMain] INFO com.alt.Application - Started Application in 1.186 seconds (process running for 214.68)
+2025-10-25 08:25:27,812 [restartedMain] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-25 08:25:36,528 [http-nio-8080-exec-2] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-25 08:25:36,530 [http-nio-8080-exec-2] INFO org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-25 08:25:36,533 [http-nio-8080-exec-2] INFO org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-10-25 08:25:36,571 [http-nio-8080-exec-2] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:25:36,572 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:25:36,573 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product id  is started 794
+2025-10-25 08:25:36,573 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product saved in database Product(id=794, name=mobiles, price=9999)
+2025-10-25 08:25:36,574 [http-nio-8080-exec-2] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:28:21,232 [RMI TCP Connection(10)-127.0.0.1] INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-25 08:28:21,233 [RMI TCP Connection(10)-127.0.0.1] INFO org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-25 08:28:21,234 [tomcat-shutdown] INFO org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:28:21,415 [tomcat-shutdown] INFO org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-25 08:28:21,416 [RMI TCP Connection(10)-127.0.0.1] INFO org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:31:16,340 [restartedMain] INFO com.alt.Application - Starting Application using Java 17.0.8 with PID 2376 (E:\backup\classes\103-spring boot\62-log4j2\target\classes started by shaik in E:\backup\classes\103-spring boot\62-log4j2)
+2025-10-25 08:31:16,440 [restartedMain] INFO com.alt.Application - No active profile set, falling back to 1 default profile: "default"
+2025-10-25 08:31:16,552 [restartedMain] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-25 08:31:16,553 [restartedMain] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-25 08:31:18,507 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-25 08:31:18,530 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:31:18,537 [restartedMain] INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-25 08:31:18,539 [restartedMain] INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-25 08:31:18,661 [restartedMain] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-25 08:31:18,663 [restartedMain] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2107 ms
+2025-10-25 08:31:19,450 [restartedMain] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-25 08:31:19,517 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:31:19,663 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-25 08:31:19,705 [restartedMain] INFO com.alt.Application - Started Application in 4.532 seconds (process running for 7.537)
+2025-10-25 08:31:54,554 [http-nio-8080-exec-2] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-25 08:31:54,554 [http-nio-8080-exec-2] INFO org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-25 08:31:54,555 [http-nio-8080-exec-2] INFO org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-25 08:31:55,273 [http-nio-8080-exec-2] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:31:55,273 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:31:55,293 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product id  is started 649
+2025-10-25 08:31:55,300 [http-nio-8080-exec-2] INFO com.alt.service.FlipkartService - product saved in database Product(id=649, name=mobiles, price=9999)
+2025-10-25 08:31:55,306 [http-nio-8080-exec-2] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:31:57,523 [http-nio-8080-exec-3] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:31:57,526 [http-nio-8080-exec-3] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:31:57,527 [http-nio-8080-exec-3] INFO com.alt.service.FlipkartService - product id  is started 553
+2025-10-25 08:31:57,527 [http-nio-8080-exec-3] INFO com.alt.service.FlipkartService - product saved in database Product(id=553, name=mobiles, price=9999)
+2025-10-25 08:31:57,527 [http-nio-8080-exec-3] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:31:59,372 [http-nio-8080-exec-4] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:31:59,383 [http-nio-8080-exec-4] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:31:59,384 [http-nio-8080-exec-4] INFO com.alt.service.FlipkartService - product id  is started 631
+2025-10-25 08:31:59,384 [http-nio-8080-exec-4] INFO com.alt.service.FlipkartService - product saved in database Product(id=631, name=mobiles, price=9999)
+2025-10-25 08:31:59,385 [http-nio-8080-exec-4] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:32:01,044 [http-nio-8080-exec-6] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:32:01,048 [http-nio-8080-exec-6] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:32:01,048 [http-nio-8080-exec-6] INFO com.alt.service.FlipkartService - product id  is started 918
+2025-10-25 08:32:01,048 [http-nio-8080-exec-6] INFO com.alt.service.FlipkartService - product saved in database Product(id=918, name=mobiles, price=9999)
+2025-10-25 08:32:01,048 [http-nio-8080-exec-6] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:32:03,006 [http-nio-8080-exec-5] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:32:03,006 [http-nio-8080-exec-5] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:32:03,007 [http-nio-8080-exec-5] INFO com.alt.service.FlipkartService - product id  is started 721
+2025-10-25 08:32:03,007 [http-nio-8080-exec-5] INFO com.alt.service.FlipkartService - product saved in database Product(id=721, name=mobiles, price=9999)
+2025-10-25 08:32:03,014 [http-nio-8080-exec-5] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:32:34,891 [http-nio-8080-exec-8] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:32:34,893 [http-nio-8080-exec-8] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:32:34,894 [http-nio-8080-exec-8] INFO com.alt.service.FlipkartService - product id  is started 263
+2025-10-25 08:32:34,894 [http-nio-8080-exec-8] INFO com.alt.service.FlipkartService - product saved in database Product(id=263, name=mobiles, price=9999)
+2025-10-25 08:32:34,894 [http-nio-8080-exec-8] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:32:36,759 [http-nio-8080-exec-7] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:32:36,760 [http-nio-8080-exec-7] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:32:36,763 [http-nio-8080-exec-7] INFO com.alt.service.FlipkartService - product id  is started 550
+2025-10-25 08:32:36,764 [http-nio-8080-exec-7] INFO com.alt.service.FlipkartService - product saved in database Product(id=550, name=mobiles, price=9999)
+2025-10-25 08:32:36,764 [http-nio-8080-exec-7] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:32:38,711 [http-nio-8080-exec-9] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:32:38,712 [http-nio-8080-exec-9] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:32:38,712 [http-nio-8080-exec-9] INFO com.alt.service.FlipkartService - product id  is started 465
+2025-10-25 08:32:38,712 [http-nio-8080-exec-9] INFO com.alt.service.FlipkartService - product saved in database Product(id=465, name=mobiles, price=9999)
+2025-10-25 08:32:38,714 [http-nio-8080-exec-9] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:32:40,987 [http-nio-8080-exec-10] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:32:40,988 [http-nio-8080-exec-10] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:32:40,988 [http-nio-8080-exec-10] INFO com.alt.service.FlipkartService - product id  is started 398
+2025-10-25 08:32:40,988 [http-nio-8080-exec-10] INFO com.alt.service.FlipkartService - product saved in database Product(id=398, name=mobiles, price=9999)
+2025-10-25 08:32:40,989 [http-nio-8080-exec-10] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:35:23,935 [http-nio-8080-exec-3] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:35:24,268 [http-nio-8080-exec-3] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:35:24,268 [http-nio-8080-exec-3] INFO com.alt.service.FlipkartService - product id  is started 736
+2025-10-25 08:35:24,269 [http-nio-8080-exec-3] INFO com.alt.service.FlipkartService - product saved in database Product(id=736, name=mobiles, price=9999)
+2025-10-25 08:35:24,269 [http-nio-8080-exec-3] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:35:26,100 [http-nio-8080-exec-6] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:35:26,101 [http-nio-8080-exec-6] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:35:26,101 [http-nio-8080-exec-6] INFO com.alt.service.FlipkartService - product id  is started 348
+2025-10-25 08:35:26,101 [http-nio-8080-exec-6] INFO com.alt.service.FlipkartService - product saved in database Product(id=348, name=mobiles, price=9999)
+2025-10-25 08:35:26,102 [http-nio-8080-exec-6] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:35:28,051 [http-nio-8080-exec-5] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:35:28,052 [http-nio-8080-exec-5] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:35:28,052 [http-nio-8080-exec-5] INFO com.alt.service.FlipkartService - product id  is started 639
+2025-10-25 08:35:28,053 [http-nio-8080-exec-5] INFO com.alt.service.FlipkartService - product saved in database Product(id=639, name=mobiles, price=9999)
+2025-10-25 08:35:28,055 [http-nio-8080-exec-5] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:35:30,130 [http-nio-8080-exec-8] INFO com.alt.controller.FlipkartController - request in create product.......
+2025-10-25 08:35:30,131 [http-nio-8080-exec-8] INFO com.alt.service.FlipkartService - product id creation is started
+2025-10-25 08:35:30,131 [http-nio-8080-exec-8] INFO com.alt.service.FlipkartService - product id  is started 782
+2025-10-25 08:35:30,131 [http-nio-8080-exec-8] INFO com.alt.service.FlipkartService - product saved in database Product(id=782, name=mobiles, price=9999)
+2025-10-25 08:35:30,131 [http-nio-8080-exec-8] INFO com.alt.controller.FlipkartController - product created sucessfully.......
+2025-10-25 08:37:44,543 [RMI TCP Connection(9)-127.0.0.1] INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-25 08:37:44,550 [RMI TCP Connection(9)-127.0.0.1] INFO org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-25 08:37:44,556 [tomcat-shutdown] INFO org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-25 08:37:44,758 [tomcat-shutdown] INFO org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-25 08:37:44,776 [RMI TCP Connection(9)-127.0.0.1] INFO org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
