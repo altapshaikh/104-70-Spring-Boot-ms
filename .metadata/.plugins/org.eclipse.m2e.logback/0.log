@@ -8610,3 +8610,106 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2025-10-30 08:24:19,142 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-10-30 08:24:19,151 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\64-spring-boot-REST-JWT-token\src\test\resources
 2025-10-31 13:50:55,252 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-11-04 07:29:16,991 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-11-04 07:29:49,336 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-11-04 07:56:26,977 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:56:27,081 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:56:27,098 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-04 07:56:36,966 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:56:37,076 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:56:37,096 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-04 07:56:55,666 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ait:34-spring-boot-KAFKA:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\65-spring-boot-KAFKA-prod\pom.xml.
+2025-11-04 07:57:13,308 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /65-spring-boot-KAFKA-prod/src/main/java
+2025-11-04 07:57:13,316 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /65-spring-boot-KAFKA-prod/src/main/resources
+2025-11-04 07:57:13,318 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /65-spring-boot-KAFKA-prod/src/main/resources
+2025-11-04 07:57:13,322 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /65-spring-boot-KAFKA-prod/src/test/java
+2025-11-04 07:57:13,324 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /65-spring-boot-KAFKA-prod/src/test/resources
+2025-11-04 07:57:14,808 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 27 sec
+2025-11-04 07:57:19,318 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ait:34-spring-boot-KAFKA:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\66-spring-boot-KAFKA-consumer\pom.xml.
+2025-11-04 07:57:22,463 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /66-spring-boot-KAFKA-consumer/src/main/java
+2025-11-04 07:57:22,465 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /66-spring-boot-KAFKA-consumer/src/main/resources
+2025-11-04 07:57:22,468 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /66-spring-boot-KAFKA-consumer/src/main/resources
+2025-11-04 07:57:22,470 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /66-spring-boot-KAFKA-consumer/src/test/java
+2025-11-04 07:57:22,473 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /66-spring-boot-KAFKA-consumer/src/test/resources
+2025-11-04 07:57:24,182 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-11-04 07:57:24,213 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-11-04 07:57:25,866 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ait:34-spring-boot-KAFKA:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\65-spring-boot-KAFKA-prod\pom.xml.
+2025-11-04 07:57:28,811 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /65-spring-boot-KAFKA-prod/src/main/java
+2025-11-04 07:57:28,813 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /65-spring-boot-KAFKA-prod/src/main/resources
+2025-11-04 07:57:28,815 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /65-spring-boot-KAFKA-prod/src/main/resources
+2025-11-04 07:57:28,817 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /65-spring-boot-KAFKA-prod/src/test/java
+2025-11-04 07:57:28,818 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /65-spring-boot-KAFKA-prod/src/test/resources
+2025-11-04 07:57:30,417 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 4.00 sec, update config takes 1.00 sec 
+2025-11-04 07:57:31,926 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:57:31,936 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:57:31,946 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-04 07:57:43,220 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:57:43,334 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:57:43,345 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\59-Spring-boot-MS-DistributedTracing-order-service\src\test\resources
+2025-11-04 07:57:47,164 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:57:47,264 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:57:47,282 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\60-Spring-boot-MS-DistributedTracing-payment-service\src\test\resources
+2025-11-04 07:57:50,039 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:57:50,105 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:57:50,115 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\61-Spring-boot-MS-DistributedTracing-notification-service\src\test\resources
+2025-11-04 07:58:01,914 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:01,994 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:02,033 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\62-log4j2\src\test\resources
+2025-11-04 07:58:05,331 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:05,411 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:58:05,424 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\63-Junit\src\test\resources
+2025-11-04 07:58:11,248 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:11,290 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:58:11,301 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\64-spring-boot-REST-JWT-token\src\test\resources
+2025-11-04 07:58:12,191 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:12,271 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:58:12,282 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\65-spring-boot-KAFKA-prod\src\test\resources
+2025-11-04 07:58:13,029 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:13,120 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:13,140 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\66-spring-boot-KAFKA-consumer\src\test\resources
+2025-11-04 07:58:14,911 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 07:58:14,917 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 07:58:14,926 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\64-spring-boot-REST-JWT-token\src\test\resources
+2025-11-04 08:03:49,512 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:03:49,540 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 08:03:49,552 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\65-spring-boot-KAFKA-prod\src\test\resources
+2025-11-04 08:04:23,004 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:04:23,027 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 08:04:23,040 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\66-spring-boot-KAFKA-consumer\src\test\resources
+2025-11-04 08:12:10,621 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:12:10,658 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-04 08:12:10,668 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\65-spring-boot-KAFKA-prod\src\test\resources
+2025-11-04 08:20:38,151 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:20:38,175 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:20:38,197 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\66-spring-boot-KAFKA-consumer\src\test\resources
+2025-11-04 08:21:12,059 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:21:12,092 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-04 08:21:12,099 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\66-spring-boot-KAFKA-consumer\src\test\resources
+2025-11-06 07:59:04,775 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-11-06 08:07:40,247 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alt:ecom-express:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\41-Spring-boot-MS-currency-conversion\pom.xml.
+2025-11-06 08:07:51,953 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-06 08:07:52,034 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:07:52,049 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\src\test\resources
+2025-11-06 08:08:00,956 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-06 08:08:01,070 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:08:01,091 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\41-Spring-boot-MS-currency-conversion\src\test\resources
+2025-11-06 08:08:02,552 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alt:ecom-express:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\pom.xml.
+2025-11-06 08:09:21,578 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alt:ecom-express:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\pom.xml.
+2025-11-06 08:09:24,554 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:09:24,559 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:09:24,581 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\src\test\resources
+2025-11-06 08:11:04,402 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.alt:ecom-express:0.0.1-SNAPSHOT @ E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\pom.xml.
+2025-11-06 08:11:23,400 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:11:23,406 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:11:23,429 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\src\test\resources
+2025-11-06 08:11:23,447 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 40-Spring-boot-MS-dollar-inr-dollar
+2025-11-06 08:11:23,491 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 40-Spring-boot-MS-dollar-inr-dollar
+2025-11-06 08:40:24,475 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-06 08:40:24,698 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:40:24,733 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\src\test\resources
+2025-11-06 08:40:46,144 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-06 08:40:46,181 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-06 08:40:46,188 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\40-Spring-boot-MS-dollar-inr-dollar\src\test\resources
+2025-11-06 08:40:46,189 [Worker-26: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 40-Spring-boot-MS-dollar-inr-dollar
+2025-11-06 08:40:46,189 [Worker-26: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 40-Spring-boot-MS-dollar-inr-dollar
+2025-11-06 10:23:50,624 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

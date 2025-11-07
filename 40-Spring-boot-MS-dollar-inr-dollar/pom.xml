@@ -11,6 +11,7 @@
 	<groupId>com.alt</groupId>
 	<artifactId>ecom-express</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>40-Spring-boot-MS-doller-inr</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -70,6 +71,7 @@
 	</dependencyManagement>
 
 	<build>
+	<finalName>exchange</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

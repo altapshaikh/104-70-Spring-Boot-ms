@@ -39,6 +39,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\backup\classes\103-spring boot\66-spring-boot-KAFKA-consumer"/>
+			<item value="E:\backup\classes\103-spring boot\65-spring-boot-KAFKA-prod"/>
 			<item value="E:\backup\classes\103-spring boot\64-spring-boot-REST-JWT-token"/>
 			<item value="E:\backup\classes\103-spring boot\57-spring-boot-REDIS-CACHE"/>
 			<item value="C:\Users\shaik\Downloads\dv-courses-mcp-master\dv-courses-mcp-master"/>
