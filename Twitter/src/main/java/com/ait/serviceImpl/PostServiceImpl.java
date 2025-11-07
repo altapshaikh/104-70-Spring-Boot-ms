@@ -62,8 +62,8 @@ public class PostServiceImpl implements PostService {
 		return byUsername;
 	}
 
-	private static final String AWS_ACCESS_KEY = "AKIAFLJVQXEYH4";
-	private static final String AWS_SECRET_KEY = "lXbgZtXwjKM7c3bOHMb5o+udDMZ";
+	//private static final String AWS_ACCESS_KEY = "";
+	//private static final String AWS_SECRET_KEY = "";
 
 public DetectSentimentResponse detect(PostEntity postentity) throws Exception{
 	
