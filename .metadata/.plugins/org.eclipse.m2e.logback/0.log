@@ -8786,3 +8786,9 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2025-11-07 08:47:18,319 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-11-07 08:47:18,359 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 45 resources from src\main\resources to target\classes
 2025-11-07 08:47:18,396 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\Twitter\src\test\resources
+2025-11-07 08:48:30,586 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-07 08:48:30,633 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 45 resources from src\main\resources to target\classes
+2025-11-07 08:48:30,668 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\Twitter\src\test\resources
+2025-11-07 08:49:03,188 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-07 08:49:03,202 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 45 resources from src\main\resources to target\classes
+2025-11-07 08:49:03,246 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\backup\classes\103-spring boot\Twitter\src\test\resources

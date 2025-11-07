@@ -11,9 +11,9 @@
  * @Configuration public class ComprhendConfig { // 🔐 Replace with your actual
  * AWS credentials
  * 
- * // private static final String AWS_ACCESS_KEY = "AKIAVRUVT4EBBUVI7NNY"; //
+ * // private static final String AWS_ACCESS_KEY = "AKINY"; //
  * private static final String AWS_SECRET_KEY =
- * "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";
+ * "a9wIlKCUap2g6N/+cI9tJfobAri/";
  * 
  * public final ComprehendClient getcomprehendClient() { return
  * ComprehendClient.builder() .region(Region.US_EAST_1)
